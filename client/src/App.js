@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Fibonacci Number APP
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
@@ -26,7 +26,6 @@ function App() {
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
         </div>
-        <p>Dont know why its not working in docker</p>
       </div>
       
     </Router>
